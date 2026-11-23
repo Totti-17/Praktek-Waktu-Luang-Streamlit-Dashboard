@@ -1,0 +1,232 @@
+
+/* ========================================
+   SALES DASHBOARD - MODERN UI
+   ======================================== */
+
+/* ===== GLOBAL ===== */
+.stApp {
+    background-color: #f4f7fc !important;
+    color: #263449 !important;
+    font-family: "Segoe UI", sans-serif !important;
+}
+
+.block-container {
+    max-width: 1400px !important;
+    padding: 2rem 2.5rem !important;
+}
+
+/* ===== MAIN CONTENT ===== */
+[data-testid="stAppViewContainer"] {
+    background: #f4f7fc !important;
+}
+
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* ===== SIDEBAR ===== */
+[data-testid="stSidebar"] {
+    background: #172b4d !important;
+    border-right: 1px solid #263e62 !important;
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    background: #172b4d !important;
+}
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] span {
+    color: #e8eef8 !important;
+}
+
+[data-testid="stSidebar"] h1 {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+}
+
+/* ===== SIDEBAR NAVIGATION ===== */
+[data-testid="stSidebar"] [role="radiogroup"] {
+    gap: 8px !important;
+}
+
+[data-testid="stSidebar"] [role="radiogroup"] label {
+    background: #223b60 !important;
+    border: 1px solid #304b70 !important;
+    border-radius: 10px !important;
+    padding: 10px 12px !important;
+    transition: all 0.2s ease !important;
+}
+
+[data-testid="stSidebar"] [role="radiogroup"] label:hover {
+    background: #31527e !important;
+}
+
+/* ===== SIDEBAR INPUT ===== */
+[data-testid="stSidebar"] input {
+    color: #263449 !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] {
+    background: #ffffff !important;
+    border-radius: 9px !important;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+    color: #172b4d !important;
+    font-weight: 700 !important;
+}
+
+h1 {
+    font-size: 2rem !important;
+}
+
+h2 {
+    font-size: 1.5rem !important;
+}
+
+h3 {
+    font-size: 1.15rem !important;
+}
+
+/* ===== PARAGRAPH ===== */
+[data-testid="stAppViewContainer"] p {
+    color: #526178;
+}
+
+/* ===== METRIC CARDS ===== */
+[data-testid="stMetric"] {
+    background: #ffffff !important;
+    border: 1px solid #e2eaf4 !important;
+    border-radius: 16px !important;
+    padding: 20px !important;
+    box-shadow: 0 4px 14px rgba(23, 43, 77, 0.06) !important;
+    transition: all 0.2s ease !important;
+}
+
+[data-testid="stMetric"]:hover {
+    border-color: #93baf0 !important;
+    box-shadow: 0 7px 20px rgba(37, 99, 235, 0.10) !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #718096 !important;
+    font-size: 0.9rem !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #2563eb !important;
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+}
+
+/* ===== DATAFRAME ===== */
+[data-testid="stDataFrame"] {
+    background: #ffffff !important;
+    border: 1px solid #e2eaf4 !important;
+    border-radius: 14px !important;
+    padding: 8px !important;
+    overflow: hidden !important;
+}
+
+/* ===== TEXT INPUT ===== */
+.stTextInput input,
+.stNumberInput input {
+    background: #ffffff !important;
+    color: #263449 !important;
+    border: 1px solid #d5dfed !important;
+    border-radius: 9px !important;
+}
+
+/* ===== SELECTBOX & MULTISELECT ===== */
+.stSelectbox [data-baseweb="select"],
+.stMultiSelect [data-baseweb="select"] {
+    border-radius: 9px !important;
+}
+
+/* ===== SLIDER ===== */
+.stSlider [data-baseweb="slider"] {
+    padding-top: 8px !important;
+}
+
+/* ===== BUTTON ===== */
+.stButton button,
+.stDownloadButton button {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 9px !important;
+    font-weight: 600 !important;
+    padding: 8px 16px !important;
+    transition: all 0.2s ease !important;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+    background: #1d4ed8 !important;
+    color: #ffffff !important;
+}
+
+/* ===== FILE UPLOADER ===== */
+[data-testid="stFileUploader"] {
+    background: #20395e !important;
+    border: 1px dashed #7895bd !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+}
+
+[data-testid="stFileUploader"] section {
+    background: transparent !important;
+}
+
+[data-testid="stFileUploader"] button {
+    border-radius: 8px !important;
+}
+
+/* ===== CHART ===== */
+[data-testid="stPlotlyChart"] {
+    background: #ffffff !important;
+    border: 1px solid #e2eaf4 !important;
+    border-radius: 14px !important;
+    padding: 12px !important;
+    box-shadow: 0 4px 14px rgba(23, 43, 77, 0.04) !important;
+}
+
+/* ===== ALERT ===== */
+[data-testid="stAlert"] {
+    border-radius: 10px !important;
+}
+
+/* ===== DIVIDER ===== */
+hr {
+    border-color: #e2eaf4 !important;
+}
+
+/* ===== CAPTION ===== */
+.stCaption {
+    color: #8492a6 !important;
+}
+
+/* ===== DOWNLOAD BUTTON ===== */
+.stDownloadButton button {
+    width: 100% !important;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .block-container {
+        padding: 1rem !important;
+    }
+
+    h1 {
+        font-size: 1.6rem !important;
+    }
+
+    [data-testid="stMetric"] {
+        padding: 14px !important;
+    }
+}
